@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G and J Landscaping | Professional Lawn & Garden Care</title>
+    <title>G and J Landscaping | Professional Lawn Care</title>
     <style>
         :root {
             --primary: #1e3f20; 
@@ -31,8 +31,8 @@
         section { padding: 5rem 2rem; max-width: 1200px; margin: 0 auto; }
         .section-title { text-align: center; font-size: 2.5rem; color: var(--primary); margin-bottom: 3rem; position: relative; }
         .section-title::after { content: ''; display: block; width: 60px; height: 4px; background-color: var(--accent); margin: 0.5rem auto 0; border-radius: 2px; }
-        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-        .service-card { background: var(--bg-light); padding: 2.5rem 2rem; border-radius: 8px; text-align: center; transition: transform 0.3s; border-top: 5px solid var(--primary); }
+        .services-grid { display: flex; justify-content: center; }
+        .service-card { background: var(--bg-light); padding: 2.5rem 2rem; border-radius: 8px; text-align: center; transition: transform 0.3s; border-top: 5px solid var(--primary); max-width: 500px; width: 100%; }
         .service-card:hover { transform: translateY(-5px); }
         .service-card h3 { margin-bottom: 1rem; color: var(--primary); }
         .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
@@ -42,6 +42,8 @@
         .contact-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; background: var(--bg-light); padding: 3rem; border-radius: 8px; }
         .contact-info h3 { color: var(--primary); margin-bottom: 1rem; }
         .contact-info p { margin-bottom: 1rem; }
+        .contact-info a { color: var(--primary); font-weight: bold; text-decoration: none; }
+        .contact-info a:hover { text-decoration: underline; }
         .contact-form { display: flex; flex-direction: column; gap: 1.2rem; }
         .form-group { display: flex; flex-direction: column; gap: 0.5rem; }
         .form-group label { font-weight: 500; }
@@ -72,7 +74,7 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Beautiful Lawns, Expert Care</h1>
-            <p>From routine maintenance to complete landscape redesigns, G and J Landscaping brings your outdoor vision to life.</p>
+            <p>From routine maintenance to complete seasonal care, G and J Landscaping brings your outdoor vision to life in St. Croix Falls.</p>
             <a href="#contact" class="btn">Get a Free Quote</a>
         </div>
     </section>
@@ -83,14 +85,6 @@
             <div class="service-card">
                 <h3>Lawn Maintenance</h3>
                 <p>Regular mowing, edging, fertilization, and weed control to keep your grass lush, green, and perfectly manicured.</p>
-            </div>
-            <div class="service-card">
-                <h3>Garden Design & Planting</h3>
-                <p>Custom flowerbed creation, shrub trimming, and seasonal planting tailored to thrive in your specific environment.</p>
-            </div>
-            <div class="service-card">
-                <h3>Hardscaping</h3>
-                <p>Professional installation of stone pathways, patios, retaining walls, and outdoor living features built to last.</p>
             </div>
         </div>
     </section>
@@ -116,9 +110,9 @@
             <div class="contact-info">
                 <h3>Let's Transform Your Yard</h3>
                 <p>Ready to schedule a service or get a free estimate? Fill out the form, or reach out to us directly.</p>
-                <p><strong>Phone:</strong> (555) 123-4567</p>
-                <p><strong>Email:</strong> info@gjlandscaping.com</p>
-                <p><strong>Hours:</strong> Mon - Sat: 7:00 AM - 6:00 PM</p>
+                <p><strong>Service Area:</strong> St. Croix Falls & Surrounding Areas</p>
+                <p><strong>Phone:</strong> <a href="tel:7632331940">763-233-1940</a></p>
+                <p><strong>Email:</strong> <a href="mailto:yelpingcow17@gmail.com">yelpingcow17@gmail.com</a></p>
             </div>
             <form class="contact-form" action="#" method="POST">
                 <div class="form-group">
@@ -143,4 +137,5 @@
     </footer>
 </body>
 </html>
+
 
